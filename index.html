@@ -4,6 +4,28 @@
         <title>
             First Page
         </title>
+        <style>
+            a:link{
+                color: green;
+                text-decoration: none;
+                background-color: white;
+                padding: 15px 25px;
+            }
+
+            a:visited{
+                color: #fff;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #fff;
+                text-decoration: none;
+                background: red;
+            }
+            a:active{
+                text-decoration: none;
+                color: yellow;
+            }
+        </style>
     </head>
 
     <body style="background:tomato; font-family: verdana">
@@ -14,6 +36,7 @@
         <h4>My First Heading</h4>
         <h5>My First Heading</h5>
         <h6>My First Heading</h6>
+        <a href="#citation">Jump to Quote</a>
         <h1>H2<sup>0</sup></h1>
 
         <!-- paragraph -->
@@ -21,14 +44,22 @@
         <p title="gentle reminder">Don't forget to buy the <mark>Suya</mark></p>
         <p>My favorite color is <del>Red</del> <mark>Blue</mark></p>
         <hr>
-        <p style="font-size: 50px; text-align: center;">This is another paragraph</p>
+        <p style="font-size: 50px; text-align: center; border:2px solid white">This is another paragraph</p>
 
         <!-- links -->
-        <a href="www.w3schools.com">CLICK ME</a>
-        <a style="color:red" href="www.bet9ja.com">bet9ja</a>
+        <a href="www.w3schools.com">CLICK ME</a> <hr><br><br>
+        <a href="www.bet9ja.com">bet9ja</a> <br>
 
         <!-- images -->
         <img src="Untitled-2.jpg" alt="rola styles bag" width="200" height="150">
+
+        <!-- using blockquote -->
+        <p>Here is a blockquote from Amos</p>
+        <blockquote id="citation" cite="www.dummy.com">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro hic eaque 
+            optio officia molestias. Qui dignissimos blanditiis in. Provident quod autem 
+            delectus fuga voluptatibus vero ipsa dicta, necessitatibus odio voluptatum.
+        </blockquote>
 
     </body>
 </html>
